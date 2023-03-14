@@ -2,6 +2,7 @@
 A cross platform network chat Java application.
 
 # Usage
+<p>
 Run ServerMain.java on the server computer.
   usage - "java -jar NetworkChatServer.jar [port]"
 Server commands:
@@ -13,10 +14,13 @@ Server commands:
     <li>/quit - Shut down the server.</li>
   </ul>
 Run Login.java on client computers and connect by entering the correct ip address and the port number assigned by the server.
+</p>
 
-Points to mention:
+<p>
+<h2>Points to mention:</h2>
 <ul>
 <li>Port forwarding must be enabled on the host computer.</li>
 <li>Chats are not saved on the server at the moment, and no account creation is required to use the app.</li>
 <li>Can be implemented further in different java and android applications with little modification.</li>
   </ul>
+</p>
