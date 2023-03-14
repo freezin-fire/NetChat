@@ -132,7 +132,7 @@ public class Server implements Runnable{
         System.out.println();
         System.out.println("This program is open-source and free-to-use, and shall not be distributed \n"
                 + "as a proprietory application without the developer's consent. \n \n"
-                + "Source website : ");
+                + "Source website : https://github.com/freezin-fire/NetChat");
         System.out.println();
         System.out.println("====================================================");
     }
