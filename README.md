@@ -8,12 +8,12 @@ To use NetChat, follow the steps below:
     <li>Clone the repository to your local machine.
     <li>Open the project in an IDE (e.g. Eclipse, IntelliJ, NetBeans).
     <li>Run the Server.java file to start the server.
+      <p>  usage - "java -jar NetworkChatServer.jar [port]" </p>
     <li>Run the Login.java file to start the client.
     <li>Enter a username and Server IP:port and when prompted.
     <li>Start chatting!
   </ol>
 Note: Make sure to start the server before starting the client.
-  usage - "java -jar NetworkChatServer.jar [port]"
 </p>
 <p>
 <h3>Server commands:</h3>
