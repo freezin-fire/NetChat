@@ -34,8 +34,6 @@ Note: Make sure to start the server before starting the client.
     <li>Users can see who is online and offline.</li>
     <li>Can be implemented further in different java and android applications with little modification.</li>
   </ul>
-
-Note: Make sure to start the server before starting the client.
 </p>
 
 # Technologies Used
