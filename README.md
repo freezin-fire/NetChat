@@ -1,43 +1,51 @@
 # NetChat
-This is a simple network chat application built in Java using socket programming. The application allows users to chat with each other over a network.
 
-# Usage
-<p>
-To use NetChat, follow the steps below:
-  <ol>
-    <li>Clone the repository to your local machine.
-    <li>Open the project in an IDE (e.g. Eclipse, IntelliJ, NetBeans).
-    <li>Run the Server.java file to start the server.
-      <p>  usage - "java -jar NetworkChatServer.jar [port]" </p>
-    <li>Run the Login.java file to start the client.
-    <li>Enter a username and Server IP:port and when prompted.
-    <li>Start chatting!
-  </ol>
-Note: Make sure to start the server before starting the client.
-</p>
-<p>
-<h3>Server commands:</h3>
-  <ul>
-    <li><i>/help</i> - Print the help section.</li>
-    <li><i>/raw</i> - Enable raw mode.</li>
-    <li><i>/clients</i> - List out all the clients connected to the server.</li>
-    <li><i>/kick [userID or username]</i> - Kicks the specified user from the server.</li>
-    <li><i>/quit</i> - Shut down the server.</li>
-  </ul>
- </p>
+**NetChat** is a cross-platform network chat application built using Java. It allows multiple users to chat with each other over a network in real-time. The project demonstrates socket programming to establish communication between clients and a server, providing a basic yet functional chat application.
 
-# Features
-<p>
-  <ul>
-    <li>Multiple users can connect to the server and chat with each other.</li>
-    <li>Messages are sent and received in real-time.</li>
-    <li>Users can see who is online and offline.</li>
-    <li>Can be implemented further in different java and android applications with little modification.</li>
-  </ul>
-</p>
+## Features
 
-# Technologies Used
-<p><ul>
-<li>Java</li>
-<li>Socket Programming</li>
-</ul></p>
+-   **Real-Time Messaging:** Users can send and receive messages instantly.
+-   **Multi-User Support:** The server can handle multiple clients simultaneously.
+-   **Online/Offline Status:** Users can see who is currently connected.
+-   **Server Commands:** The server admin can execute commands like kicking users or listing connected clients.
+-   **Platform Flexibility:** Can be adapted for various platforms, including Java and Android, with minimal modifications.
+
+## Usage
+
+1.  **Clone the Repository:**
+    
+    `git clone https://github.com/freezin-fire/NetChat.git` 
+    
+2.  **Open the Project:**  
+    Open the project in your preferred IDE (e.g., Eclipse, IntelliJ, NetBeans).
+    
+3.  **Start the Server:**
+    
+    -   Run the `Server.java` file to start the server.
+    -   Alternatively, you can start the server using the command:
+        
+        ```java -jar NetworkChatServer.jar [port]```
+        
+4.  **Start the Client:**
+    
+    -   Run the `Login.java` file to start the client.
+    -   Enter a username and provide the server IP and port when prompted.
+5.  **Begin Chatting:** Once connected, you can chat with other users in real-time. Make sure the server is running before starting any client.
+    
+
+## Server Commands
+
+-   `/help`: Display the help section.
+-   `/raw`: Enable raw mode.
+-   `/clients`: List all clients connected to the server.
+-   `/kick [userID or username]`: Kick a specified user from the server.
+-   `/quit`: Shut down the server.
+
+## Technologies Used
+
+-   **Java**
+-   **Socket Programming**
+
+## License
+
+This project is licensed under the GPL-2.0 License.
